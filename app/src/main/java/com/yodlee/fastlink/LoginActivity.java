@@ -26,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText accessTokenTextField = (EditText) findViewById(R.id.accessToken);
         final EditText extraParamsTextField = (EditText) findViewById(R.id.extraParams);
         fastlinkURLTextField.setText(Config.fastlinkURL);
+        accessTokenTextField.setText(Config.accessToken);
 
         signInBtn = findViewById(R.id.signInBtn);
 
